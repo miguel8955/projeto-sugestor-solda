@@ -5,7 +5,7 @@ def calcular_amperagem():
     try:
         espessura = float(entry_espessura.get())
         
-        # Regra de negócio simples: estimativa base de ~30 a 40 Amperes por milímetro de espessura.
+        # Regra de negócio simpl.es: estimativa base de ~30 a 40 Amperes por milímetro de espessura.
         amperagem_min = espessura * 30
         amperagem_max = espessura * 40
         
